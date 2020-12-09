@@ -1,3 +1,3 @@
 # vue-itextarea
 
-Readme content coming...
+![](demo.gif)
