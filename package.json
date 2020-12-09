@@ -2,6 +2,8 @@
   "name": "vue-itextarea",
   "version": "1.0.0",
   "description": "",
+  "author": "BEAUBUS",
+  "license": "MIT",
   "main": "dist/vue-itextarea.ssr.js",
   "browser": "dist/vue-itextarea.esm.js",
   "module": "dist/vue-itextarea.esm.js",
@@ -40,5 +42,9 @@
   },
   "engines": {
     "node": ">=10"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/beaubus/vue-itextarea"
   }
 }
