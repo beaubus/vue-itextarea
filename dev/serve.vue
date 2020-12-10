@@ -3,16 +3,16 @@ import Vue from 'vue';
 import VueItextarea from '@/vue-itextarea.vue';
 
 export default Vue.extend({
-  name: 'ServeDev',
+    name: 'ServeDev',
 
-  components: {
-    VueItextarea
-  }
+    components: {
+        VueItextarea,
+    },
 });
 </script>
 
 <template>
-  <div id="app">
-    <vue-itextarea />
-  </div>
+    <div id="app">
+        <vue-itextarea/>
+    </div>
 </template>
