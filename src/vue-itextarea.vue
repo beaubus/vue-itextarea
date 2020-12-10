@@ -29,6 +29,13 @@ export default {
             var start = target.selectionStart;
             var end = target.selectionEnd;
 
+            if (event.key === 'Escape') {
+                if (event.target.nextElementSibling) event.target.nextElementSibling.focus();
+                else (event.target.blur());
+
+                return;
+            }
+
             if (event.key === 'Tab' && !event.metaKey) {
                 event.preventDefault();
                 value = value.substring(0, start) + ' '.repeat(this.TAB_SIZE) + value.substring(end);

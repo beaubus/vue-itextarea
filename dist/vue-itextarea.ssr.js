@@ -27,6 +27,11 @@ var script = {
       var start = target.selectionStart;
       var end = target.selectionEnd;
 
+      if (event.key === 'Escape') {
+        if (event.target.nextElementSibling) event.target.nextElementSibling.focus();else event.target.blur();
+        return;
+      }
+
       if (event.key === 'Tab' && !event.metaKey) {
         event.preventDefault();
         value = value.substring(0, start) + ' '.repeat(this.TAB_SIZE) + value.substring(end);
@@ -179,7 +184,7 @@ var __vue_inject_styles__ = undefined;
 var __vue_scope_id__ = undefined;
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-dd49c194";
+var __vue_module_identifier__ = "data-v-947f7088";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
