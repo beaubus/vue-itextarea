@@ -5,6 +5,7 @@
 //
 //
 //
+//
 var script = {
   name: 'vue-itextarea',
   props: {
@@ -19,6 +20,12 @@ var script = {
     };
   },
   methods: {
+    /**
+     * Keyboard shortcuts support, like <ctrl-v>
+     */
+    change: function change(event) {
+      this.$emit('input', event.target.value);
+    },
     updateValue: function updateValue(event) {
       var _this = this;
 
@@ -170,6 +177,9 @@ var __vue_render__ = function __vue_render__() {
     on: {
       "keydown": function keydown($event) {
         return _vm.updateValue($event);
+      },
+      "input": function input($event) {
+        return _vm.change($event);
       }
     }
   }, []);
@@ -184,7 +194,7 @@ var __vue_inject_styles__ = undefined;
 var __vue_scope_id__ = undefined;
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-947f7088";
+var __vue_module_identifier__ = "data-v-d54ac9bc";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

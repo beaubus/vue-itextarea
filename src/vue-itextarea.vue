@@ -1,6 +1,7 @@
 <template>
     <textarea :value="current_value"
               @keydown="updateValue($event)"
+              @input="change($event)"
     ></textarea>
 </template>
 
@@ -22,6 +23,14 @@ export default {
     },
 
     methods: {
+        /**
+         * Keyboard shortcuts support, like <ctrl-v>
+         */
+        change(event)
+        {
+            this.$emit('input', event.target.value);
+        },
+
         updateValue(event)
         {
             var target = event.target;

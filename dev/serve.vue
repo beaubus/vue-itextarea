@@ -7,7 +7,7 @@ export default Vue.extend({
 
     components: {
         VueItextarea,
-    },
+    }
 });
 </script>
 

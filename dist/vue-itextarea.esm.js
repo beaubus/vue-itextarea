@@ -5,6 +5,7 @@
 //
 //
 //
+//
 var script = {
   name: 'vue-itextarea',
   props: {
@@ -21,6 +22,13 @@ var script = {
   },
 
   methods: {
+    /**
+     * Keyboard shortcuts support, like <ctrl-v>
+     */
+    change(event) {
+      this.$emit('input', event.target.value);
+    },
+
     updateValue(event) {
       var target = event.target;
       var value = target.value;
@@ -168,6 +176,9 @@ var __vue_render__ = function () {
     on: {
       "keydown": function ($event) {
         return _vm.updateValue($event);
+      },
+      "input": function ($event) {
+        return _vm.change($event);
       }
     }
   });
