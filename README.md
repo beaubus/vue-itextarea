@@ -5,8 +5,15 @@ Escape to unfocus or move to the next sibling.
 ![](demo.gif)
 
 ## Installation
+
+NPM
 ```bash
 npm i vue-itextarea
+```
+
+CDN
+```bash
+<script src="https://www.unpkg.com/vue-itextarea/dist/vue-itextarea.min.js"></script>
 ```
 
 ## Usage
