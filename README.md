@@ -1,17 +1,11 @@
 # Textarea with tab indentation
 
-<a href="https://www.npmjs.com/package/vue-itextarea">
-    <img alt="npm" src="https://img.shields.io/npm/dt/vue-itextarea?logo=npm">
-</a>
-
-<a href="https://github.com/beaubus/vue-itextarea/blob/master/LICENSE">
-    <img alt="MIT" src="https://img.shields.io/github/license/beaubus/vue-itextarea">
-</a>
+<a href="https://www.npmjs.com/package/vue-itextarea"><img alt="npm" src="https://img.shields.io/npm/dt/vue-itextarea?logo=npm"></a>
+<a href="https://github.com/beaubus/vue-itextarea/blob/master/LICENSE"><img alt="MIT" src="https://img.shields.io/github/license/beaubus/vue-itextarea"></a>
 <br>
 <br>
 
-Use tab to indent in textareas (tab got automatically replaced by spaces).  
-Escape to unfocus or move to the next sibling.  
+Use tab to indent in textareas (tab got automatically replaced by spaces). Escape to unfocus or move to the next sibling.  
 ![](demo.gif)
 
 ## Installation
