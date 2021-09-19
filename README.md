@@ -10,8 +10,8 @@
 <br>
 <br>
 
-Use tab to indent in textareas (tab got automatically replaced by spaces).  
-Escape to unfocus or move to the next sibling.  
+Use tab to indent in textareas (tab got automatically replaced by spaces). Escape to unfocus or move to the next sibling.  
+
 ![](demo.gif)
 
 ## Installation
