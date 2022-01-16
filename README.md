@@ -19,6 +19,8 @@ Use tab to indent in textareas (tab got automatically replaced by spaces). Escap
 
 ![](demo.gif)
 
+<a href="https://www.beaubus.com/packages/#vue-itextarea">Demo</a>
+
 ## Installation
 
 NPM
