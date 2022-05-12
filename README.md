@@ -42,7 +42,7 @@ Vue.component('vue-itextarea', vue_itextarea);
 ```html
 <vue-itextarea v-model="demo"
                class="demo"
-               placeholder="Demo"
+               placeholder="Press the Tab key"
 ></vue-itextarea>
 ```
 
