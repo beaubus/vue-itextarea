@@ -1,4 +1,4 @@
-# Textarea with tab indentation
+# Textarea with tab indentation for Vue.js 2
 
 <a href="https://www.npmjs.com/package/vue-itextarea">
     <img alt="npm" src="https://img.shields.io/npm/dt/vue-itextarea?logo=npm">
