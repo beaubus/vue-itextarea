@@ -15,7 +15,7 @@
 <br>
 <br>
 
-Use tab to indent in textareas (tab got automatically replaced by spaces). Escape to unfocus or move to the next sibling.  
+An intuitive package that enhances textareas by allowing the use of the Tab key for indentation, automatically replacing tabs with spaces. It also supports the use of the Escape key to either unfocus the textarea or move to the next sibling element. Simple and efficient for improving user text input experience.
 
 ![](demo.gif)
 
