@@ -1,6 +1,6 @@
 {
   "name": "vue-itextarea",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Use tab to indent in textareas (tab got automatically replaced by spaces). Escape to unfocus or move to the next sibling.",
   "author": "BEAUBUS",
   "license": "MIT",
@@ -50,7 +50,10 @@
   "keywords": [
     "vue",
     "vuejs",
+    "vue.js",
+    "vue2",
     "textarea",
+    "textarea indentation",
     "indentation",
     "tab",
     "backspace",
