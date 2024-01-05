@@ -21,6 +21,8 @@ An intuitive package that enhances textareas by allowing the use of the Tab key 
 
 <a href="https://www.beaubus.com/packages/#vue-itextarea">Demo</a>
 
+<br>
+
 ## Installation
 
 NPM
